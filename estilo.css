@@ -1,0 +1,87 @@
+#nome_site{
+    background-color: rgb(81, 203, 255);
+       }
+
+h1, body{
+    margin: 0px;
+    }
+
+img {
+    width: 280px;
+    height: 280px ;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: "Red Hat Display", sans-serif;
+    size: 25pt;
+}
+
+div{
+    text-align: center;
+    justify-content: center;
+}
+
+#produto_infos{
+    justify-content: center;
+}
+
+h5{
+    font-family: "Red Hat Display", sans-serif;
+    size: 25pt;
+    ;
+}
+
+#comprar{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18pt;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(10, 119, 166);
+    border-radius: 10px;
+    width: 180px;
+    height: 90px;
+    border: none;
+
+}
+
+#comprar:active{
+    background-color: rgb(81, 203, 255);
+}
+
+.oculta{
+    display: none;
+}
+
+#informacoes{
+    position: absolute;
+    top: 300px;
+    margin: auto;
+    width: 100%;
+    height: 550px;
+    
+
+}
+
+#descricao{
+    background-color: rgb(10, 119, 166);
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14pt;
+    width: 400px;
+    margin: auto;
+    border-radius: 18px;
+    padding: 20px;
+
+}
+
+#fechar{
+    background: none;
+    border: none;
+    position: relative;
+    top: 20px;
+    left: 205px;
+}
